@@ -1,7 +1,7 @@
 *{
     margin: 0;
 }
-
+    
 body{
     
 }
@@ -20,13 +20,27 @@ body{
     flex-direction: column;
 }
 
-.paragraph{
+.paragraph p{
     padding: 10px;
     font-size: 15px;
 }
 
-.paragraph:hover{
-    color: brown;
+.paragraph p:hover{
+    color: rgb(30, 28, 28);
     padding: 10px;
-    font-size: 30px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.contrainer{
+    border-top: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contrainer ul {
+    list-style-type: circle;
+    padding-bottom: 10px;
 }
