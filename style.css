@@ -1,15 +1,32 @@
+*{
+    margin: 0;
+}
+
+body{
+    
+}
+
 .headline{
     font-size: 20px;
-
-
+    border-bottom: solid black 1px;
+    padding: 15px;
     
 }
 
 .profile{
-
     text-indent: 60px;
     text-align: center;
     display: flex;
     flex-direction: column;
+}
 
+.paragraph{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.paragraph:hover{
+    color: brown;
+    padding: 10px;
+    font-size: 30px;
 }
