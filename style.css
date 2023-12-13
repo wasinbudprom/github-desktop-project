@@ -48,7 +48,7 @@
 /* Main styles */
 body {
   margin-top: 3.5rem;
-  color: #999;
+  color: #000000;
   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   text-align: center;
   /* img size is 50x50 */
@@ -107,6 +107,11 @@ body::before {
     color: firebrick;
 }
 
+.border{
+    border: solid 1px black;
+    width: 20%;
+    margin: 5rem;
+}
 
 
 .button-49,
