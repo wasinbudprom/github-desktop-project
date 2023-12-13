@@ -73,42 +73,9 @@ body::before {
 }
 
 
-.grid {
-    display: grid; 
-    grid-template-columns: 1fr;
-    align-items: stretch;
-    row-gap: 10px;
-    text-align: center;
-    justify-items: center;
-}
-
-.content {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.content img {
-    
-    height: 100px;
-    width: 100px;
-}
-
-.content a img {
-    
-    height: 100px;
-    width: 100px;
-}
-
-.main-paragragh{
-    background-color: lightgoldenrodyellow;
-}
-
-.main-paragragh p{
-    color: firebrick;
-}
 
 .border{
-    border: solid 1px black;
+    border: solid 3px black;
     width: 20%;
     margin: 5rem;
 }
