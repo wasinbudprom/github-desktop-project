@@ -2,6 +2,19 @@
     margin: 0;
 
 }
+
+.one:focus{
+  background-color: red;
+}
+.two:target{
+  border: 3px solid black;
+  background-color: blue;
+}
+.three:lang(LN){
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
 /* Background data (Original source: https://subtlepatterns.com/grid-me/) */
 /* Animations */
